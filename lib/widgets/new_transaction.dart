@@ -52,7 +52,7 @@ class NewTransaction extends StatelessWidget {
                 FlatButton(
                   onPressed: submitData,
                   child: Text("Add"),
-                  textColor: Colors.purple,
+                  textColor: Colors.purpleAccent[500],
                 )
               ],
             ),

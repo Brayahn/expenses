@@ -27,6 +27,12 @@ class myHome extends StatelessWidget {
           "Brian's Expense App :)",
           style: TextStyle(color: Colors.white),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.add),
+            onPressed: () {},
+          )
+        ],
         backgroundColor: Colors.purple[400],
       ),
       body: SingleChildScrollView(
@@ -46,6 +52,11 @@ class myHome extends StatelessWidget {
             userTransaction(),
           ],
         ),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.add),
+        onPressed: () {},
       ),
     );
   }
